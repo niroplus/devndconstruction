@@ -24,13 +24,19 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setStatus("submitting");
+    setStatus("submitting");  
 
     const form = e.currentTarget;
-    const formData = new FormData(form);
+    const formData = new FormData();
 
-    // Attach files under the matching field name
-    files.forEach(file => {
+    formData.append("form-name", "contact");
+    formData.append("name", (form.elements.namedItem("name") as HTMLInputElement).value);
+    formData.append("email", (form.elements.namedItem("email") as HTMLInputElement).value);
+    formData.append("phone", (form.elements.namedItem("phone") as HTMLInputElement).value);
+    formData.append("message", (form.elements.namedItem("message") as HTMLTextAreaElement).value);
+    formData.append("bot-field", (form.elements.namedItem("bot-field") as HTMLInputElement)?.value || "");
+
+    files.forEach((file) => {
       formData.append("attachments", file);
     });
 
