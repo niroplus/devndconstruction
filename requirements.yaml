@@ -1,0 +1,29 @@
+packages:
+  "framer-motion": "For premium smooth scroll animations and section reveals"
+  "embla-carousel-react": "For the testimonials slider component"
+  "clsx": "Utility for conditional Tailwind classes"
+  "tailwind-merge": "Utility for merging Tailwind classes safely"
+
+images:
+  - path: "artifacts/devd-construction/public/images/portfolio-1.png"
+    description: "Modern luxury home extension exterior, architectural photography, dusk lighting, warm interior lights glowing"
+    aspect_ratio: "4:3"
+  - path: "artifacts/devd-construction/public/images/portfolio-2.png"
+    description: "High-end open plan kitchen and living room full renovation, sleek modern design, dark charcoal and wood finishes"
+    aspect_ratio: "4:3"
+  - path: "artifacts/devd-construction/public/images/portfolio-3.png"
+    description: "Modern commercial office fit-out, glass partitions, industrial ceiling, professional lighting"
+    aspect_ratio: "4:3"
+  - path: "artifacts/devd-construction/public/images/portfolio-4.png"
+    description: "Premium landscaping and paving, external works, modern garden design with geometric stone slabs"
+    aspect_ratio: "4:3"
+  - path: "artifacts/devd-construction/public/images/portfolio-5.png"
+    description: "Luxury bathroom refurbishment, large format dark tiles, brass fixtures, elegant lighting"
+    aspect_ratio: "4:3"
+  - path: "artifacts/devd-construction/public/images/portfolio-6.png"
+    description: "Exterior of a newly constructed modern residential home, clean lines, contemporary architecture"
+    aspect_ratio: "4:3"
+
+notes:
+  - This is a static marketing website. All links act as smooth-scroll anchors to sections on the same page.
+  - The contact form is UI only.

@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Dev & D Construction Company LTD."
+version = "1.0.0"
+id = "artifacts/devd-construction"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18622
+
+[services.development]
+run = "pnpm --filter @workspace/devd-construction run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/devd-construction", "run", "build" ]
+publicDir = "artifacts/devd-construction/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18622"
+BASE_PATH = "/"
