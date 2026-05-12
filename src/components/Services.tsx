@@ -1,36 +1,36 @@
 import { motion } from "framer-motion";
-import { Building, Hammer, Maximize, ClipboardList, Wrench, Briefcase, ArrowRight } from "lucide-react";
+import { Hammer, Wrench, Home, Trees, Store, Building, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    icon: Building,
-    title: "General Construction",
-    desc: "Comprehensive building services from groundworks to final handover for residential and commercial sites."
-  },
-  {
     icon: Hammer,
-    title: "Renovations & Refurbs",
-    desc: "Breathe new life into your property with our high-end renovation and modern refurbishment solutions."
-  },
-  {
-    icon: Maximize,
-    title: "Home Extensions",
-    desc: "Expand your living space with seamlessly integrated single or multi-story home extensions."
-  },
-  {
-    icon: ClipboardList,
-    title: "Project Management",
-    desc: "End-to-end management ensuring your project stays on budget, on schedule, and up to standard."
+    title: "Home Refurbishments & Renovations",
+    desc: "From full-property gut refurbs to room-by-room transformations, we deliver high-quality renovations that modernise your home while preserving its character — on time and within budget."
   },
   {
     icon: Wrench,
-    title: "Property Maintenance",
-    desc: "Reliable ongoing maintenance services to keep your properties safe, compliant, and pristine."
+    title: "Property Maintenance Services",
+    desc: "Keeping your property in top condition year-round. We provide reliable, responsive maintenance covering plumbing, electrics, plastering, decorating, and general repairs for residential and commercial landlords alike."
   },
   {
-    icon: Briefcase,
-    title: "Commercial Works",
-    desc: "Tailored office fit-outs and commercial builds designed to reflect your brand's professional image."
+    icon: Home,
+    title: "Roofing & Exterior Solutions",
+    desc: "From flat roof repairs and re-felting to full pitched roof replacements, fascias, soffits, and guttering — we protect your property from the outside in with durable, weatherproof solutions."
+  },
+  {
+    icon: Trees,
+    title: "Landscaping & Outdoor Living",
+    desc: "Transform your outdoor space into something extraordinary. We design and build patios, driveways, garden walls, fencing, decking, and bespoke outdoor areas tailored to your lifestyle."
+  },
+  {
+    icon: Store,
+    title: "Shop Remodelling",
+    desc: "Specialist commercial remodelling for retail units, restaurants, and franchise fit-outs. We work to brand specifications and tight programme schedules, delivering high-impact interiors that attract customers."
+  },
+  {
+    icon: Building,
+    title: "Complete Building & Construction Works",
+    desc: "Full-scope new build and structural construction projects managed from groundworks to final handover. Whether it's an extension, conversion, or new build, we self-deliver every stage with a skilled in-house team."
   }
 ];
 

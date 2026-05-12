@@ -259,7 +259,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h5 className="text-gray-900 font-semibold mb-1">Email Address</h5>
-                    <a href="mailto:info@devdconstruction.co.uk" className="text-gray-600 hover:text-primary transition-colors">info@devdconstruction.co.uk</a>
+                    <a href="mailto:devdconstruction22@gmail.com" className="text-gray-600 hover:text-primary transition-colors">devdconstruction22@gmail.com</a>
                   </div>
                 </div>
 
