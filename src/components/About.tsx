@@ -26,7 +26,7 @@ export default function About() {
           >
             <h2 className="text-sm font-bold text-primary tracking-widest uppercase mb-2">About Us</h2>
             <h3 className="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6 leading-tight">
-              Building Excellence <br />Since <span className="text-primary">2012</span>
+              Building <span className="text-primary">Excellence</span>
             </h3>
             <p className="text-gray-600 text-lg mb-6 leading-relaxed">
               Dev & D Construction Company LTD. is a premier construction firm dedicated to transforming visions into reality. With over a decade of industry experience, we have established ourselves as a dependable UK construction partner.

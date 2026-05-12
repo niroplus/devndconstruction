@@ -5,19 +5,14 @@ import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const reviews = [
   {
-    name: "James T.",
-    role: "Homeowner, London",
-    text: "Dev & D Construction transformed our outdated house into a modern masterpiece. Their attention to detail and communication throughout the renovation was phenomenal. Highly recommended!"
+    name: "Ramesh Prajapati",
+    role: "Verified Customer",
+    text: "Very efficient, very quick, excellent work, very intelligent in job, budget oriented, smart people. Always recommended to all who looking to make building work according to there dream. Many thanks to make my place smart and beautiful….star performers."
   },
   {
-    name: "Sarah Jenkins",
-    role: "Property Developer",
-    text: "As a developer, I need contractors who are reliable and stick to the budget. The team at Dev & D delivered our recent 4-flat conversion perfectly on time. Great craftsmanship."
-  },
-  {
-    name: "Michael R.",
-    role: "Business Owner",
-    text: "We hired them for a complete commercial office fit-out. The disruption to our operations was minimal, and the final result exceeded our expectations. A truly professional outfit."
+    name: "Paresg Malankiya",
+    role: "Verified Customer",
+    text: "They did renovate our bathroom and ground floors. They did fantastic work and much satisfied with the work they did.."
   }
 ];
 

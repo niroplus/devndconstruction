@@ -275,14 +275,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="flex-1 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden min-h-[250px] relative flex items-center justify-center group">
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&h=600&fit=crop')] bg-cover bg-center opacity-30 grayscale group-hover:grayscale-0 transition-all duration-500"></div>
-              <div className="absolute inset-0 bg-black/10"></div>
-              <div className="relative z-10 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-200 font-medium text-gray-900 shadow-lg">
-                View on Google Maps
-              </div>
-            </div>
           </motion.div>
 
         </div>
