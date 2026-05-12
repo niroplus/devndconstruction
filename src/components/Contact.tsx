@@ -24,19 +24,13 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setStatus("submitting");  
+    setStatus("submitting");
 
     const form = e.currentTarget;
-    const formData = new FormData();
+    const formData = new FormData(form);
 
-    formData.append("form-name", "contact");
-    formData.append("name", (form.elements.namedItem("name") as HTMLInputElement).value);
-    formData.append("email", (form.elements.namedItem("email") as HTMLInputElement).value);
-    formData.append("phone", (form.elements.namedItem("phone") as HTMLInputElement).value);
-    formData.append("message", (form.elements.namedItem("message") as HTMLTextAreaElement).value);
-    formData.append("bot-field", (form.elements.namedItem("bot-field") as HTMLInputElement)?.value || "");
-
-    files.forEach((file) => {
+    // Attach files under the matching field name
+    files.forEach(file => {
       formData.append("attachments", file);
     });
 
@@ -97,8 +91,7 @@ export default function Contact() {
                 name="contact"
                 method="POST"
                 data-netlify="true"
-                netlify
-                netlify-honeypot="bot-field"
+                data-netlify-honeypot="bot-field"
                 encType="multipart/form-data"
                 onSubmit={handleSubmit}
                 className="space-y-6"
@@ -246,7 +239,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h5 className="text-gray-900 font-semibold mb-1">Office Location</h5>
-                    <p className="text-gray-600">12 Builder's Way, London<br />SE1 7PB, United Kingdom</p>
+                    <p className="text-gray-600">Flat 386 Yorktown Road, College Town<br />Sandhurst, England, GU47 0PU</p>
                   </div>
                 </div>
 

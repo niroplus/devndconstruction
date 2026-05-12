@@ -60,11 +60,6 @@ export default function About() {
             <div className="relative rounded-2xl bg-white border-l-4 border-primary p-8 md:p-12 shadow-xl overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary rounded-bl-[100px] opacity-5" />
               
-              <div className="mb-8">
-                <div className="text-primary font-display font-black text-7xl leading-none mb-2">12+</div>
-                <div className="text-xl font-bold text-gray-900 uppercase tracking-wide">Years of Industry Excellence</div>
-              </div>
-
               <div className="space-y-6">
                 <div className="pb-6 border-b border-gray-100">
                   <h4 className="text-gray-900 font-bold text-lg mb-2">Expert Consultation</h4>
